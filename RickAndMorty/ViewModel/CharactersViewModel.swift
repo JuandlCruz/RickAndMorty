@@ -1,5 +1,5 @@
 //
-//  CharactersLogic.swift
+//  CharactersViewModel.swift
 //  RickAndMorty
 //
 //  Created by Juan on 6/11/23.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @Observable
-final class CharactersLogic {
+final class CharactersViewModel {
     let network: NetworkInteractor
     var characters: [CharacterModel] = []
     var currentPage: Int = 1

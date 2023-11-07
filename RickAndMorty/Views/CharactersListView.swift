@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CharactersListView: View {
-    @State var vm = CharactersLogic()
+    @State var vm = CharactersViewModel()
     @State private var searchText = ""
     
     var body: some View {
